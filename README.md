@@ -11,7 +11,7 @@
 
 Rather than catering for different gaming platforms, Libgdx allows for rapid development for **all** popular systems. Check it out: [http://libgdx.badlogicgames.com/](http://libgdx.badlogicgames.com/)
 
-### Installation Instructions ###
+### Eclipse Installation Instructions ###
 
 To develop your application via Eclipse, you need to install the following pieces of software.
 
@@ -21,8 +21,8 @@ To develop your application via Eclipse, you need to install the following piece
 
 Be sure to install these plugins. To do so, select the 'Help' option on the top bar, select 'Install New Software...", paste the links provided below into the "Work with:" field, and then click the "Add..." button.
 
-- [Android Development Tools for Eclipse](http://developer.android.com/tools/sdk/eclipse-adt.html), aka ADT Plugin. Use this update site: [https://dl-ssl.google.com/android/eclipse/](https://dl-ssl.google.com/android/eclipse/)
-- [Eclipse Integration Gradle](https://github.com/spring-projects/eclipse-integration-gradle/), use this update site: [http://dist.springsource.com/release/TOOLS/gradle](http://dist.springsource.com/release/TOOLS/gradle)
+- **Copy + Paste this link** (Android Dev Tools): [https://dl-ssl.google.com/android/eclipse/](https://dl-ssl.google.com/android/eclipse/)
+- **Copy + Paste this link** (Gradle): [http://dist.springsource.com/release/TOOLS/gradle](http://dist.springsource.com/release/TOOLS/gradle)
 
 Once all of these tools are installed, proceed to [creating your project](https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle)
 
