@@ -13,13 +13,20 @@ public class Main implements ApplicationListener, InputProcessor {
     public static Audio a;
     public static Textures t;
     public static Font f;
-    public int touchX;
-    public int touchY;
+    public static int touchX;
+    public static int touchY;
+    public static int width;
+    public static int height;
 
     private Vector3 touchPos;
     private SpriteBatch batch;
     private OrthographicCamera camera;
     private Game game;
+    
+    public Main(int width, int height){
+    	Main.width=width;
+    	Main.height=height;
+    }
 
     @Override
     public void create() {
@@ -52,8 +59,8 @@ public class Main implements ApplicationListener, InputProcessor {
     }
 
     public void draw(){
-        //set up background color
-        Gdx.gl.glClearColor(0, 0, 0.2f, 1);
+    	//set up background color
+        Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         //tell the camera to update its matrices.
         camera.update();
